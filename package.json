@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "start": "node --watch index.js",
+    "lint": "eslint",
+    "prepare": "husky install"
+  },
+  "name": "17_2_api_f1",
+  "description": "Ejercicio de servidor con express y node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarFerBarrera/17_2_Api_F1.git"
+  },
+  "author": "Oscar Barrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarFerBarrera/17_2_Api_F1/issues"
+  },
+  "homepage": "https://github.com/OscarFerBarrera/17_2_Api_F1#readme"
+}
