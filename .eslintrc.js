@@ -4,23 +4,29 @@ module.exports = {
     commonjs: true,
     es2021: true
   },
-  extends: 'standard',
+  extends: "standard",
   overrides: [
     {
       env: {
         node: true
       },
       files: [
-        '.eslintrc.{js,cjs}'
+        ".eslintrc.{js,cjs}"
       ],
       parserOptions: {
-        sourceType: 'script'
+        sourceType: "script"
       }
     }
   ],
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: "latest"
   },
   rules: {
+    "semi": "off",
+    "space-before-function-paren": "off",
+    "quotes": [2, "double"],
+    "quote-props": [2, "consistent"],
+    "multiline-ternary": "off",
+    "comma-dangle": "off",
   }
 }
